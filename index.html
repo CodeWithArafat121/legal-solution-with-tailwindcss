@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>legal-solution-with-tailwindcss</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9cb5927555.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-EBGaramond {
+            font-family: 'EB Garamond', serif;
+        }
+
+        .font-Poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bg-banner {
+            background: linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url(./images/banner.png);
+        }
+        .my-container{
+            width: 80%;
+            max-width: 1170px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="my-container mx-auto">
+        <nav class="flex justify-between items-center my-14">
+            <div>
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div>
+                <ul class="lg:flex hidden gap-8 text-base text-neutral-600 font-normal">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services <i class="fa-solid fa-chevron-right" style="color: #707070;"></i></a></li>
+                    <li><a href="">Cases <i class="fa-solid fa-chevron-right" style="color: #707070;"></i></a></li>
+                    <li><a href="">Blog <i class="fa-solid fa-chevron-right" style="color: #707070;"></i></a></li>
+                    <li><a href="">Contact Us <i class="fa-solid fa-chevron-right" style="color: #707070;"></i></a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex">
+                <button class="bg-[#B68C5A] text-xl text-white font-semibold px-7 py-4 rounded-lg">Free
+                    Consultation</button>
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="bg-banner bg-cover  bg-no-repeat bg-center   py-[104px]  space-y-8 rounded-lg ">
+            <h1 class="font-EBGaramond text-3xl lg:text-7xl text-white font-extrabold leading-tight lg:w-[60%] mx-auto text-center">We Provide Effective Legal Solutions</h1>
+            <p class="font-Poppins text-base text-white font-normal lg:w-[60%] mx-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour.</p>
+            <form action="" class="font-Poppins text-center">
+                <input class="lg:w-[500px] px-5 py-5 mx-auto mb-4 rounded-lg lg:mr-6" type="search" placeholder="Search your services">
+                <input class="bg-[#B68C5A] rounded-lg px-10 py-5 text-xl text-white font-semibold" type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
